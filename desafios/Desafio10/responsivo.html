@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, fugiat, ea vero perferendis itaque est maiores
+            alias magnam, enim quidem incidunt aliquid dignissimos eum aliquam ullam ut officiis atque repellendus?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem temporibus dolore consequatur tenetur, vero
+            eveniet debitis itaque, explicabo nisi ipsum ullam magni nihil architecto repudiandae a ad quos harum
+            impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione praesentium nam hic corrupti
+            laborum! Explicabo numquam corporis quo inventore, eveniet eius iste maiores architecto nulla voluptate,
+            assumenda voluptatem. Ipsam.</p>
+            
+        <!--Deixando imagens responsivas-->
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+            <picture>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur earum maiores minus,
+                    cupiditate cum iure neque nobis harum nam libero laborum quo quasi incidunt velit impedit, fugit
+                    facilis non dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis et
+                    expedita aspernatur nemo optio, vitae veniam tenetur iste, sint facere quam, doloribus quo quisquam
+                    possimus similique assumenda mollitia totam ut.</p>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+h1{
+    color: #1A5C38;
+    font-family: android;
+}
+
+h2{
+    color: #1A5C38;
+    font-family: android;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1A5C38;
+}
+
+body{
+    
+    background-color: #84E1AD; 
+    display: block;
+    margin-top: -22px;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    margin-left: 10em;
+    margin-right: 10em;
+}
